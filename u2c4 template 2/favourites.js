@@ -26,7 +26,7 @@ function display(data){
        td5.innerText = el.venue
        
        var td6 = document.createElement("td")
-       td6.innerText = "Robin"
+       td6.innerText = "Delete"
        td6.style.color = "red"
        td6.style.cursor = "pointer"
        td6.addEventListener("click",function(){
